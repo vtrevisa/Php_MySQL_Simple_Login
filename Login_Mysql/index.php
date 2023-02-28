@@ -3,7 +3,7 @@
     if(isset($login_cookie)){
       echo"<script language='javascript' type='text/javascript'>
           alert('Bem-Vindo, $login_cookie. Acesso liberado!');window.location.
-          href='cadastro2.html'</script>";
+          href='menu.html'</script>";
     }else{
       echo"Bem-Vindo, convidado <br>";
       echo"Essas informações <font color='red'>NÃO PODEM</font> ser acessadas por você";
